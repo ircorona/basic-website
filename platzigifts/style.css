@@ -1,0 +1,174 @@
+/*
+Theme Name: PlatziGifts
+Version: 1.2
+Description: Catalog site for PlatziGifts.
+Author: Cristian Ramanzin
+Author URI: http://github.com/ramitaenlarama
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* Global Styles */
+body, a, h1, h2, h3, h4, li, p, span, ul {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #1c3643;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1 {
+    margin: 50px 0;
+    font-weight: 900;
+}
+
+/* Container and Row */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Lists */
+ul {
+    margin-bottom: 0;
+}
+
+/* Attachment */
+.attachment-large {
+    max-width: 100%;
+    height: auto !important;
+}
+
+/* Header */
+header {
+    background-color: #1c3643;
+    padding: 20px 0;
+}
+
+header nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+header nav li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+header nav li a:hover {
+    color: #f3a712; /* Added hover effect color for better user interaction */
+}
+
+/* Logo */
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #1c3643;
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Product List */
+.lista-productos h2 {
+    font-weight: 900;
+}
+
+.lista-productos h4 {
+    font-weight: 400;
+}
+
+.lista-productos h4 a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.lista-productos h4 a:hover {
+    color: #f3a712;
+}
+
+/* Buttons */
+.btn {
+    background-color: #f3a712;
+    color: #1c3643;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.padding {
+    padding: 15px;
+}
+
+/* Fix Broken Layout */
+.main-content {
+    padding: 30px 0;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 8px;
+}
+
+.pagina404 {
+    background-color: #f8f9fa; /* Light gray for better visibility */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pagina404 h1 {
+    color: #dc3545; /* Red color for error indication */
+    font-weight: bold;
+}
+
+.pagina404 p {
+    color: #6c757d; /* Muted text color */
+}
+
+.pagina404 a.btn {
+    background-color: #007bff; /* Primary button color */
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.pagina404 a.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

@@ -1,0 +1,131 @@
+/* Global Styles */
+body {
+    background-color: #121212 !important; /* Softer black for sleek dark mode */
+    color: #e0e0e0 !important; /* Light gray text for reduced eye strain */
+    font-family: 'Arial', sans-serif !important; /* Clean and readable font */
+    transition: background-color 0.3s ease, color 0.3s ease !important; /* Smooth transitions */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important; /* Bright white for headings */
+    text-transform: uppercase !important; /* Make headings stand out */
+    letter-spacing: 1px !important; /* Add some spacing for elegance */
+    margin-bottom: 15px !important;
+}
+
+/* Paragraphs and Spans */
+p, span {
+    color: #cfcfcf !important; /* Slightly darker gray for secondary text */
+    line-height: 1.8 !important; /* Improve readability */
+    font-size: 16px !important; /* Comfortable font size */
+}
+
+/* Links */
+a {
+    color: #1e90ff !important; /* Bright blue for visibility */
+    text-decoration: none !important; /* Clean links */
+    transition: color 0.3s ease !important; /* Smooth hover effect */
+}
+
+a:hover {
+    color: #00bfff !important; /* Lighter blue for hover state */
+    text-decoration: underline !important; /* Underline on hover for clarity */
+}
+
+/* Buttons */
+button, .button {
+    background-color: #1e90ff !important; /* Vibrant blue background */
+    color: #ffffff !important; /* White text */
+    border: none !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important; /* Rounded corners for a modern look */
+    cursor: pointer !important;
+    transition: background-color 0.3s ease, transform 0.2s ease !important; /* Smooth hover effects */
+}
+
+button:hover, .button:hover {
+    background-color: #00bfff !important; /* Lighter blue on hover */
+    transform: scale(1.05) !important; /* Slightly enlarge button on hover */
+}
+
+/* Containers */
+.container {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+}
+
+/* Cards */
+.card {
+    background-color: #1e1e1e !important; /* Darker background for contrast */
+    color: #ffffff !important; /* White text */
+    border: 1px solid #333 !important; /* Subtle border for depth */
+    border-radius: 8px !important; /* Rounded corners */
+    padding: 15px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) !important; /* Add a shadow for elevation */
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.card:hover {
+    transform: translateY(-5px) !important; /* Lift effect on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3) !important; /* Stronger shadow on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #101010 !important; /* Even darker footer */
+    color: #888 !important; /* Muted text for footer */
+    text-align: center !important;
+    padding: 15px 0 !important;
+    font-size: 14px !important;
+    border-top: 1px solid #333 !important; /* Subtle top border */
+}
+
+/* Highlighted Sections */
+.highlight {
+    background-color: #282828 !important; /* Slightly brighter section */
+    padding: 20px !important;
+    border-radius: 10px !important;
+}
+
+/* Transitions for Interactivity */
+*, *::before, *::after {
+    transition: all 0.3s ease !important; /* Add smooth transitions everywhere */
+}
+
+/* Specific Adjustments for Headers and Navigation */
+header {
+    background-color: #1f1f1f !important; /* Darker header */
+    padding: 10px 0 !important;
+    border-bottom: 1px solid #333 !important; /* Subtle bottom border */
+}
+
+nav a {
+    color: #e0e0e0 !important;
+    margin: 0 15px !important;
+    font-weight: bold !important;
+}
+
+nav a:hover {
+    color: #00bfff !important; /* Highlight navigation links on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px !important;
+    }
+
+    h1 {
+        font-size: 24px !important;
+    }
+
+    .container {
+        padding: 10px !important;
+    }
+
+    .card {
+        padding: 10px !important;
+    }
+}
