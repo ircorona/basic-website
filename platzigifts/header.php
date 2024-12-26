@@ -8,24 +8,22 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-4">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/logo.png'); ?>" alt="Logo">
-                </div>
-                <div class="col-8">
-                    <nav>
-                        <?php wp_nav_menu(
-                            array(
-                                'theme_location' => 'top_menu',
-                                'menu_class' => 'menu-principal',
-                                'container_class' => 'container-menu'
-                            )
-                        ); ?>
-                    </nav>
-                </div>
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/logo.png'); ?>" alt="Logo">
             </div>
+            <nav>
+                <?php wp_nav_menu(
+                    array(
+                        'theme_location' => 'top_menu',
+                        'menu_class' => 'menu-principal d-flex',
+                        'container_class' => 'container-menu'
+                    )
+                ); ?>
+            </nav>
         </div>
     </header>
 </body>
+
+
 </html>

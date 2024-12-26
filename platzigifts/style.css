@@ -172,3 +172,159 @@ footer p {
 .pagina404 a.btn:hover {
     background-color: #0056b3; /* Darker blue on hover */
 }
+
+.container {
+    padding: 10px 20px;
+}
+.logo img {
+    max-height: 50px; /* Adjust the logo size as needed */
+}
+.menu-principal {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px; /* Space between menu items */
+}
+.menu-principal li {
+    display: inline-block;
+}
+.menu-principal li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.menu-principal li a:hover {
+    color: #00bcd4; /* Hover color */
+}
+.post-navigation {
+    margin: 20px 0;
+    font-size: 1rem;
+}
+.post-navigation .nav-links {
+    display: flex;
+    justify-content: space-between;
+}
+.post-navigation .nav-links a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+.post-navigation .nav-links a:hover {
+    color: #0056b3;
+}
+
+/* Product Thumbnail and Contact Form Side-by-Side */
+.row {
+    display: flex; /* Keeps the layout flexible */
+    justify-content: space-between; /* Adds space between left and right sections */
+    align-items: center; /* Vertically centers the content */
+}
+
+.product-thumbnail {
+    flex: 1; /* Takes up 50% width */
+    padding-right: 20px; /* Adds spacing between image and form */
+}
+
+.contact-form-container {
+    flex: 1; /* Takes up 50% width */
+    display: flex;
+    justify-content: center; /* Centers the form horizontally */
+    align-items: center; /* Centers the form vertically */
+}
+
+.contact-form {
+    width: 100%; /* Makes form take full container width */
+    max-width: 400px; /* Limits form width for better readability */
+    padding: 15px;
+    background-color: #ffffff; /* Form background for contrast */
+    color: #000000; /* Text color */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a slight shadow */
+}
+
+.contact-form h3 {
+    color: #1c3643;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Estilos para los enlaces de productos */
+.producto-item a {
+    color: #00BCD4; /* Azul turquesa claro */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.producto-item a:hover {
+    color: #4DD0E1; /* Un tono más claro para hover */
+}
+
+/* Estilos para las fechas y metadata */
+.posted-on, 
+.entry-date {
+    color: #B0BEC5; /* Gris claro para texto secundario */
+}
+
+/* Estilos para títulos de categoría */
+.category-title {
+    color: #E0F7FA; /* Azul muy claro casi blanco */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra sutil para mejorar legibilidad */
+}
+
+/* Estilos para el contenedor del producto */
+.producto-item {
+    position: relative;
+    margin-bottom: 2rem;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Estilos para el título del producto */
+.producto-item h4 {
+    padding: 1rem;
+    margin: 0;
+    background: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+}
+
+/* Estilos para los enlaces del título */
+.producto-item h4 a {
+    color: #2C3E50;  /* Color oscuro para buen contraste */
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.producto-item h4 a:hover {
+    color: #00BCD4;  /* Color turquesa al hover */
+}
+
+/* Estilos para la imagen */
+.producto-item figure {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.producto-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Mensaje de resultados de búsqueda */
+#resultado-productos {
+    color: #4A5568;
+    background: #EDF2F7;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin: 1rem 0;
+}
